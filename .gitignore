@@ -1,0 +1,31 @@
+## User settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Swift Package Manager
+.build/
+
+## CocoaPods
+# If you don't want to commit pods (recommended: use Podfile.lock instead):
+# Pods/
+# *.xcworkspace
+
+## Carthage
+Carthage/Build/
+
+## fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
