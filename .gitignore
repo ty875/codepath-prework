@@ -1,31 +1,36 @@
-## User settings
+# Xcode
 xcuserdata/
-
-## Obj-C/Swift specific
 *.hmap
-
-## App packaging
 *.ipa
 *.dSYM.zip
 *.dSYM
-
-## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
+DerivedData/
+*.xcuserstate
 
-## Swift Package Manager
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+.swiftpm
 .build/
 
-## CocoaPods
-# If you don't want to commit pods (recommended: use Podfile.lock instead):
-# Pods/
-# *.xcworkspace
+# CocoaPods
+Pods/
+*.xcworkspace
 
-## Carthage
+# Carthage
+Carthage/Checkouts
 Carthage/Build/
 
-## fastlane
+# fastlane
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Other
+*.lock
+*.env
+.DS_Store
